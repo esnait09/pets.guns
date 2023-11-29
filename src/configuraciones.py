@@ -66,12 +66,12 @@ menos_longitud = 50
 menos_altura = 50
 cant_enemigos = 6
 
-
 button_width=200
 button_height=50
 
-
-#contadores de max puntos 
-contador = 0
-max_contador = 0
+#botones de pantalla de inicio 
+button_comenzar=pygame.Rect(400,200,button_width,button_height)
+button_musica_on=pygame.Rect(400,300,button_width,button_height)
+button_musica_off=pygame.Rect(400,400,button_width,button_height)
+button_salir=pygame.Rect(400,500,button_width,button_height)
 
